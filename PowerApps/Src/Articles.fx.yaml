@@ -1,0 +1,93 @@
+Articles As screen:
+
+    Rectangle5 As rectangle:
+        Width: =638
+        ZIndex: =1
+
+    Label14 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =85
+        Size: =24
+        Text: ="Articles"
+        Width: =449
+        X: =158
+        Y: =7
+        ZIndex: =2
+
+    Icon4 As icon.ArrowLeft:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        X: =63
+        Y: =18
+        ZIndex: =3
+
+    Label15 As label:
+        Fill: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =463
+        PaddingTop: =8
+        Size: =21
+        Text: ="The author was written about cloud computing. Which was very interesting and usefull to gain knowledge."
+        Width: =548
+        X: =48
+        Y: =281
+        ZIndex: =4
+
+    TextInput5 As text:
+        Default: =
+        Height: =70
+        HintText: ="Review your thoughts"
+        Size: =21
+        Width: =560
+        X: =36
+        Y: =151
+        ZIndex: =5
+
+    Star1 As star:
+        Height: =55
+        Width: =69
+        X: =48
+        Y: =914
+        ZIndex: =6
+
+    Star1_1 As star:
+        Height: =55
+        Width: =69
+        X: =117
+        Y: =914
+        ZIndex: =7
+
+    Star1_2 As star:
+        Height: =55
+        Width: =69
+        X: =207
+        Y: =914
+        ZIndex: =8
+
+    Star1_3 As star:
+        Height: =55
+        Width: =69
+        X: =296
+        Y: =914
+        ZIndex: =9
+
+    Star1_4 As star:
+        BorderColor: =RGBA(0, 13, 75, 1)
+        Fill: =RGBA(39, 67, 125, 1)
+        Height: =55
+        Width: =69
+        X: =381
+        Y: =914
+        ZIndex: =10
+
+    Button5 As button:
+        Height: =70
+        Size: =24
+        Text: ="Post"
+        Width: =159
+        X: =48
+        Y: =800
+        ZIndex: =11
+

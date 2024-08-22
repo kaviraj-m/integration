@@ -1,0 +1,27 @@
+splash As screen:
+
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =3000
+        Height: =1136
+        OnTimerEnd: =Navigate(LoginScreen,ScreenTransition.Fade)
+        Visible: =false
+        Width: =640
+        ZIndex: =3
+
+    Image4 As image:
+        Height: =320
+        Image: =logo_3
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =326
+        ZIndex: =4
+
+    Image5 As image:
+        Height: =135
+        Image: =load
+        Width: =192
+        X: =224
+        Y: =621
+        ZIndex: =5
+

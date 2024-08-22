@@ -1,0 +1,122 @@
+Expands As screen:
+
+    Rectangle7 As rectangle:
+        Height: =90
+        Width: =640
+        ZIndex: =1
+
+    TextInput6 As text:
+        Default: ="Cloud computing"
+        Fill: =RGBA(227, 234, 243, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =85
+        Size: =21
+        Width: =347
+        X: =272
+        Y: =196
+        ZIndex: =2
+
+    TextInput6_1 As text:
+        Default: ="John"
+        Fill: =RGBA(227, 234, 243, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =21
+        Width: =347
+        X: =272
+        Y: =305
+        ZIndex: =3
+
+    TextInput6_2 As text:
+        Default: ="version 2"
+        Fill: =RGBA(227, 234, 243, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =99
+        Size: =21
+        Width: =347
+        X: =272
+        Y: =424
+        ZIndex: =4
+
+    TextInput7 As text:
+        Default: ="30"
+        Height: =60
+        Size: =21
+        Width: =125
+        X: =272
+        Y: =586
+        ZIndex: =5
+
+    Label4 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =31
+        Text: |-
+            ="Title :"
+        Width: =207
+        X: =45
+        Y: =219
+        ZIndex: =6
+
+    Label4_2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =31
+        Text: |-
+            ="Edition : "
+        Width: =207
+        X: =45
+        Y: =445
+        ZIndex: =8
+
+    Label4_3 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =97
+        Size: =31
+        Text: |-
+            ="Quantity :"
+        Width: =259
+        X: =45
+        Y: =549
+        ZIndex: =9
+
+    Label11 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =31
+        Text: ="Details"
+        Width: =430
+        X: =210
+        Y: =20
+        ZIndex: =10
+
+    Label4_4 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =31
+        Text: |-
+            ="Author : "
+        Width: =207
+        X: =45
+        Y: =321
+        ZIndex: =11
+
+    Button3 As button:
+        Height: =70
+        OnSelect: =Navigate(Reserve)
+        Size: =24
+        Text: ="Reserve"
+        Width: =280
+        X: =45
+        Y: =740
+        ZIndex: =12
+
+    Icon6 As icon.ArrowLeft:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        X: =57
+        Y: =16
+        ZIndex: =13
+

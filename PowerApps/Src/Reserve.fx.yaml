@@ -1,0 +1,92 @@
+Reserve As screen:
+
+    Rectangle8 As rectangle:
+        Height: =97
+        Width: =640
+        ZIndex: =1
+
+    Label16 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =67
+        Size: =31
+        Text: ="SIN"
+        Width: =157
+        X: =40
+        Y: =321
+        ZIndex: =2
+
+    Label16_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =87
+        Size: =31
+        Text: ="Department"
+        Width: =395
+        X: =29
+        Y: =416
+        ZIndex: =3
+
+    Label16_2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =31
+        Text: ="Count"
+        Width: =560
+        X: =40
+        Y: =583
+        ZIndex: =4
+
+    TextInput8 As text:
+        Default: =""
+        Height: =90
+        Size: =21
+        Width: =256
+        X: =332
+        Y: =298
+        ZIndex: =5
+
+    TextInput8_1 As text:
+        Default: =""
+        Height: =88
+        Size: =21
+        Width: =255
+        X: =332
+        Y: =438
+        ZIndex: =6
+
+    TextInput8_2 As text:
+        Default: =""
+        Height: =85
+        Size: =21
+        Width: =251
+        X: =332
+        Y: =575
+        ZIndex: =7
+
+    Label17 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =77
+        Size: =31
+        Text: ="Reservation"
+        Width: =472
+        X: =168
+        Y: =10
+        ZIndex: =8
+
+    Button7 As button:
+        Height: =70
+        Size: =24
+        Text: ="Reserve"
+        Width: =280
+        X: =144
+        Y: =792
+        ZIndex: =9
+
+    Icon2 As icon.ArrowLeft:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        X: =40
+        Y: =23
+        ZIndex: =10
+

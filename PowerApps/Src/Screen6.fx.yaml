@@ -1,0 +1,61 @@
+Screen6 As screen:
+
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Height: =91
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =597
+        X: =20
+        Y: =897
+        ZIndex: =1
+
+    Container1_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Height: =97
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =597
+        X: =20
+        Y: =990
+        ZIndex: =2
+
+    Container1_2 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Height: =91
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =597
+        X: =20
+        Y: =778
+        ZIndex: =3
+
+    Container1_3 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Height: =109
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =584
+        X: =20
+        Y: =616
+        ZIndex: =4
+
+    Container1_4 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Height: =107
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =573
+        X: =32
+        Y: =427
+        ZIndex: =5
+
+    Container1_5 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Bold
+        Height: =127
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        X: =32
+        Y: =230
+        ZIndex: =6
+

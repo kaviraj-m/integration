@@ -1,0 +1,45 @@
+Screen2 As screen:
+    BackgroundImage: ='1167637919'
+    ImagePosition: =ImagePosition.Fill
+
+    Label7 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 13, 75, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="Welcome to our Application"
+        Width: =560
+        X: =56
+        Y: =472
+        ZIndex: =1
+
+    btnSignUp As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        Height: =70
+        OnSelect: |+
+            =Navigate(LoginScreen, ScreenTransition.Fade);
+            Reset(TextInput1);
+            Reset(EmailInput);
+            Reset(TextInput3);
+            Reset(TextInput4);
+            
+        Size: =24
+        Text: ="Signup"
+        Width: =280
+        X: =164
+        Y: =668
+        ZIndex: =3
+
+    Label9 As label:
+        Align: =Align.Center
+        DisabledColor: =RGBA(0, 13, 75, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =21
+        Text: ="Before start make a fun get siginup"
+        Width: =482
+        X: =80
+        Y: =579
+        ZIndex: =4
+

@@ -1,0 +1,97 @@
+DashboardPage As screen:
+
+    Image7 As image:
+        Height: =148
+        Image: =logo_2
+        ImagePosition: =ImagePosition.Fill
+        Width: =419
+        X: =54
+        ZIndex: =1
+
+    Image9 As image:
+        Height: =68
+        Image: =aakam
+        ImagePosition: =ImagePosition.Fill
+        Width: =96
+        X: =537
+        Y: =45
+        ZIndex: =2
+
+    Rectangle2 As rectangle:
+        Height: =11
+        Width: =640
+        Y: =126
+        ZIndex: =3
+
+    Label5 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 13, 75, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =153
+        Size: =21
+        Text: ="A library is a collection of books, and possibly other materials and media, that is accessible for use by its members and members of allied institutions. "
+        Width: =556
+        X: =42
+        Y: =228
+        ZIndex: =4
+
+    Button1 As button:
+        Height: =70
+        OnSelect: =Navigate('Book Organize')
+        Size: =24
+        Text: ="Book Details"
+        Width: =222
+        X: =63
+        Y: =527
+        ZIndex: =5
+
+    Button1_1 As button:
+        Height: =57
+        OnSelect: =
+        Size: =24
+        Text: =" suggestions"
+        Width: =230
+        X: =63
+        Y: =645
+        ZIndex: =6
+
+    Button1_2 As button:
+        Height: =55
+        Size: =24
+        Text: ="Books Articles"
+        Width: =234
+        X: =63
+        Y: =748
+        ZIndex: =7
+
+    Arrow1 As arrow:
+        Height: =52
+        OnSelect: =Navigate('Book Organize')
+        Width: =48
+        X: =308
+        Y: =536
+        ZIndex: =8
+
+    Arrow1_1 As arrow:
+        Height: =52
+        OnSelect: =Navigate(Suggest)
+        Width: =47
+        X: =319
+        Y: =645
+        ZIndex: =9
+
+    Arrow1_2 As arrow:
+        Height: =54
+        OnSelect: =Navigate(Articles)
+        Width: =52
+        X: =319
+        Y: =748
+        ZIndex: =10
+
+    Icon5 As icon.ArrowLeft:
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        X: =13
+        Y: =47
+        ZIndex: =11
+

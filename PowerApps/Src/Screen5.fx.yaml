@@ -1,0 +1,58 @@
+Screen5 As screen:
+
+    Rectangle1 As rectangle:
+        Height: =105
+        Width: =640
+        ZIndex: =1
+
+    Icon1 As icon.Hamburger:
+        Icon: =Icon.Hamburger
+        X: =43
+        Y: =92
+        ZIndex: =2
+
+    Container2 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Semibold
+        Height: =1031
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =335
+        Y: =105
+        ZIndex: =3
+
+    Button2 As button:
+        Height: =65
+        Size: =24
+        Text: ="Book details"
+        Width: =215
+        X: =15
+        Y: =358
+        ZIndex: =4
+
+    Button2_1 As button:
+        Height: =80
+        Size: =24
+        Text: ="Add suggestions"
+        Width: =227
+        X: =15
+        Y: =251
+        ZIndex: =5
+
+    Button2_2 As button:
+        Height: =65
+        Size: =24
+        Text: ="Book details"
+        Width: =215
+        X: =21
+        Y: =156
+        ZIndex: =6
+
+    Button2_3 As button:
+        Height: =65
+        Size: =24
+        Text: ="Book details"
+        Width: =215
+        X: =15
+        Y: =444
+        ZIndex: =7
+

@@ -1,0 +1,62 @@
+LoginScreen As screen:
+    BackgroundImage: =
+    ImagePosition: =ImagePosition.Fill
+
+    LoginButton As button:
+        Color: =RGBA(227, 234, 243, 1)
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        OnSelect: |
+            =If(
+                IsMatch(EmailInput.Text, "^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"),
+                // If the email format is valid
+                Navigate(MainPage, ScreenTransition.Fade, { Message: "Your verification was successful" }),
+                // If the email format is invalid
+                Notify("Invalid email format. Please try again.", NotificationType.Error)
+            )
+        Size: =24
+        Text: ="Login"
+        Width: =280
+        X: =160
+        Y: =818
+        ZIndex: =6
+
+    TextInput1 As text:
+        Default: =
+        Height: =79
+        HintText: ="Enter Your name"
+        Size: =21
+        Width: =524
+        X: =66
+        Y: =326
+        ZIndex: =10
+
+    EmailInput As text:
+        Default: =
+        Height: =76
+        HintText: ="Enter Email"
+        Size: =21
+        Width: =524
+        X: =66
+        Y: =473
+        ZIndex: =11
+
+    Image2 As image:
+        Height: =300
+        Image: =logo_1
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =12
+
+    TextInput2_1 As text:
+        Default: =
+        Height: =88
+        HintText: ="Enter password"
+        Mode: =TextMode.Password
+        Size: =21
+        Width: =524
+        X: =66
+        Y: =635
+        ZIndex: =13
+

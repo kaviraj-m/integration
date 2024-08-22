@@ -1,0 +1,21 @@
+Home As screen:
+    BackgroundImage: =
+
+    Image3 As image:
+        Height: =207
+        Image: =ssp_3
+        ImagePosition: =ImagePosition.Fill
+        Width: =600
+        ZIndex: =1
+
+    Label10 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Online Library Management"
+        Width: =560
+        X: =20
+        Y: =207
+        ZIndex: =2
+

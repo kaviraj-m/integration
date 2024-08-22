@@ -1,0 +1,74 @@
+Suggest As screen:
+
+    Rectangle4 As rectangle:
+        Width: =640
+        ZIndex: =1
+
+    Label12 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =21
+        Text: ="Book Suggest"
+        Width: =483
+        X: =127
+        ZIndex: =2
+
+    Icon3 As icon.ArrowLeft:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        X: =41
+        Y: =18
+        ZIndex: =3
+
+    Label13 As label:
+        Color: =RGBA(0, 13, 75, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Suggest your recomanded books"
+        Width: =560
+        X: =30
+        Y: =132
+        ZIndex: =4
+
+    TextInput4 As text:
+        Default: =""
+        Height: =70
+        HintText: ="Book Name"
+        Size: =21
+        Width: =560
+        X: =30
+        Y: =265
+        ZIndex: =5
+
+    TextInput4_1 As text:
+        Default: =""
+        Height: =70
+        HintText: ="Book Tittle"
+        Size: =21
+        Width: =560
+        X: =30
+        Y: =395
+        ZIndex: =6
+
+    TextInput4_2 As text:
+        Default: =""
+        Height: =70
+        HintText: ="Book Author"
+        Size: =21
+        Width: =560
+        X: =30
+        Y: =546
+        ZIndex: =7
+
+    Button4 As button:
+        Height: =70
+        Size: =24
+        Text: ="Request"
+        Width: =280
+        X: =30
+        Y: =704
+        ZIndex: =8
+

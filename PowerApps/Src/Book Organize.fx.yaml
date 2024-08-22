@@ -1,0 +1,76 @@
+"'Book Organize' As screen":
+
+    Rectangle3 As rectangle:
+        Height: =90
+        Width: =640
+        ZIndex: =1
+
+    Label1 As label:
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =31
+        Text: ="Book Details"
+        Width: =375
+        X: =199
+        Y: =10
+        ZIndex: =2
+
+    TextInput3 As text:
+        Default: ="CSE"
+        Height: =70
+        OnSelect: =Navigate('cse Details')
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =320
+        ZIndex: =3
+
+    TextInput3_1 As text:
+        Default: ="IT"
+        Height: =70
+        OnSelect: =Navigate(Details)
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =459
+        ZIndex: =4
+
+    TextInput3_2 As text:
+        Default: ="AGRI"
+        Height: =70
+        OnSelect: =Navigate(Details)
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =582
+        ZIndex: =5
+
+    TextInput3_3 As text:
+        Default: ="ECE"
+        Height: =70
+        OnSelect: =Navigate(Details)
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =716
+        ZIndex: =6
+
+    TextInput3_4 As text:
+        Default: ="MECH"
+        Height: =70
+        OnSelect: =Navigate(Details)
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =834
+        ZIndex: =7
+
+    Icon8 As icon.ArrowLeft:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        X: =65
+        Y: =16
+        ZIndex: =8
+
